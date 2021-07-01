@@ -17,7 +17,6 @@ import androidx.recyclerview.widget.RecyclerView;
 class ListAdapter extends RecyclerView.Adapter<ListAdapter.ViewHolder> {
 
 
-
     //vars
     private List<User> mCriminalsList;
 

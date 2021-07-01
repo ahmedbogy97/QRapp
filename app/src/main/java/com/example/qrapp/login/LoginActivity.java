@@ -50,6 +50,7 @@ public class LoginActivity extends AppCompatActivity implements LoginInterface, 
 
     private Context mContext;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
