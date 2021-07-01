@@ -1,0 +1,54 @@
+com/example/qrapp/Signup.java
+ com.example.qrapp.Signup
+ com.example.qrapp.Signup$1
+tableNames/user/Users.java
+ tableNames.user.Users
+com/example/qrapp/Scanner.java
+ com.example.qrapp.Scanner
+ com.example.qrapp.Scanner$1
+ com.example.qrapp.Scanner$1$1
+ com.example.qrapp.Scanner$2
+ com.example.qrapp.Scanner$3
+com/example/qrapp/editProfileModel/EditProfileModel.java
+ com.example.qrapp.editProfileModel.EditProfileModel
+com/example/qrapp/ProfileActivity.java
+ com.example.qrapp.ProfileActivity
+com/example/qrapp/MainActivity.java
+ com.example.qrapp.MainActivity
+com/example/qrapp/splashScreen/SplashScreenInterface.java
+ com.example.qrapp.splashScreen.SplashScreenInterface
+tableNames/user/Device.java
+ tableNames.user.Device
+com/example/qrapp/EditProfile.java
+ com.example.qrapp.EditProfile
+ com.example.qrapp.EditProfile$1
+ com.example.qrapp.EditProfile$2
+com/example/qrapp/User.java
+ com.example.qrapp.User
+com/example/qrapp/RetrieveDataActivity.java
+ com.example.qrapp.RetrieveDataActivity
+ com.example.qrapp.RetrieveDataActivity$1
+ com.example.qrapp.RetrieveDataActivity$2
+ com.example.qrapp.RetrieveDataActivity$3
+ com.example.qrapp.RetrieveDataActivity$4
+com/example/qrapp/services/Connectivity.java
+ com.example.qrapp.services.Connectivity
+com/example/qrapp/login/LoginInterface.java
+ com.example.qrapp.login.LoginInterface
+com/example/qrapp/services/Dialogs.java
+ com.example.qrapp.services.Dialogs
+com/example/qrapp/splashScreen/SplashScreen.java
+ com.example.qrapp.splashScreen.SplashScreen
+com/example/qrapp/MainActivity2.java
+ com.example.qrapp.MainActivity2
+ com.example.qrapp.MainActivity2$1
+com/example/qrapp/services/ButtonAnim.java
+ com.example.qrapp.services.ButtonAnim
+com/example/qrapp/BuildConfig.java
+ com.example.qrapp.BuildConfig
+com/example/qrapp/login/LoginActivity.java
+ com.example.qrapp.login.LoginActivity
+ com.example.qrapp.login.LoginActivity$1
+com/example/qrapp/ListAdapter.java
+ com.example.qrapp.ListAdapter
+ com.example.qrapp.ListAdapter$ViewHolder

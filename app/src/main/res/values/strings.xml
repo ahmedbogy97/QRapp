@@ -1,0 +1,94 @@
+<resources>
+    <string name="app_name">QR APP</string>
+    <string name="textview">TextView</string>
+    <string name="scan">Scan</string>
+
+
+    <!--Login-->
+    <string name="login_email">Email</string>
+    <string name="login_password">Password</string>
+    <string name="login_forgot_password">Forgot password ?</string>
+    <string name="login_login">Login</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="login_welcome">Welcome" "</string>
+    <string name="login_Please_login_here">Please login here</string>
+    <string name="login_sign_up">Sign up</string>
+    <string name="create_a_new_account">Create a new account</string>
+
+
+    <!--Description-->
+
+    <string name="description_search">Search</string>
+    <string name="description_logo">logo</string>
+    <string name="description_addImage">addImage</string>
+    <string name="description_next">next</string>
+
+    <!--Check Internet Connection-->
+    <string name="no_internet_connection">No Internet Connection</string>
+
+    <!--dialog-->
+    <string name="send">Send</string>
+    <string name="cancel">Cancel</string>
+    <string name="loading">Loading…</string>
+
+    <!--java-->
+    <string name="please_wait_while_we_check_your_credentials">Please wait while we check your credentials.</string>
+    <string name="password_is_required">Password is required!</string>
+    <string name="email_is_required">Email is required!</string>
+    <string name="check_your_email">Check your email</string>
+    <string name="username_is_required">Username is required</string>
+    <string name="full_name_is_required">Full name is required</string>
+    <string name="second_name_is_required">First name is required</string>
+    <string name="please_enter_a_valid_email">please enter a valid email</string>
+    <string name="Minimum_length_of_password_should_be_6">Minimum length of password should be 6</string>
+    <string name="confirm_password_is_required">Confirm password is required</string>
+    <string name="Phone_is_required">Phone number is required</string>
+    <string name="car_name_is_required">Car name  is required</string>
+    <string name="enter_real_phone">Enter real phone</string>
+    <string name="personal_image_is_required">Personal image is required</string>
+    <string name="driving_license_image_is_required">Driving license image is required</string>
+    <string name="car_image_is_required">Car image is required</string>
+    <string name="car_license_image_is_required">Car license image is required</string>
+    <string name="sending">Sending</string>
+    <string name="email_is_not_found">email is not found" "</string>
+    <string name="cannot_sign_in_please_check_the_form_and_try_again">Cannot Sign in. Please check the form and try again."</string>
+    <string name="please_wait_while_we_upload_and_process_the_image">Please wait while we upload and process the image.</string>
+    <string name="full_name">Full Name</string>
+
+    <string name="age">Age</string>
+    <string name="blood_type">Blood Type</string>
+    <string name="diseases">Diseases</string>
+    <string name="email">Email</string>
+    <string name="medicine">Medicine</string>
+    <string name="phone">Phone</string>
+    <string name="phone1">Phone1</string>
+    <string name="phone2">Phone2</string>
+    <string name="phone3">Phone3</string>
+    <string name="userName">User name</string>
+    <string name="Id">Id</string>
+    <string name="logout">Logout</string>
+
+    <string name="Id1">ID</string>
+    <string name="required">Required</string>
+    <string name="relatives_phone_number_1">Relatives Phone Number 1</string>
+    <string name="relatives_phone_number_2">Relatives Phone Number 2</string>
+    <string name="relatives_phone_number_3">Relatives Phone Number 3</string>
+    <string name="optional">Optional</string>
+    <string name="medicine_you_take">Medicine you take</string>
+    <string name="chronic_diseases">Chronic Diseases</string>
+    <string name="save">Save</string>
+    <string name="surgeries">Surgeries</string>
+
+
+    <string-array name="bloodType">
+        <item>Blood Type</item>
+        <item>A+</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+        <item>O+</item>
+        <item>O-</item>
+    </string-array>
+</resources>

@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/q4"
+    tools:context=".RetrieveDataActivity">
+    <include
+        android:id="@+id/appbar"
+        layout="@layout/app_bar_title_back"
+        android:visibility="visible"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:fillViewport="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/appbar">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.constraintlayout.widget.Barrier
+            android:id="@+id/barrier"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:barrierDirection="end"
+            app:constraint_referenced_ids="agreement_retrieveData_label,retrieveData_date_label,elengaz_elt3akody_label,elengaz_elzamany_label,elengaz_elmaly_label,elengaz_ba3d_eltamded_label,modet_eletfakya_label,modet_elemtedad_label,egmaly_elmoda_label,elmoda_elmonkdya_label,elnesba_elme2awya_label,elmoda_elmotabkya_label" />
+        <androidx.constraintlayout.widget.Barrier
+            android:id="@+id/barrier2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:barrierDirection="end"
+            app:constraint_referenced_ids="retrieveData_date_userName,retrieveData_date_phone,retrieveData_date_Id,retrieveData_date_bloodType,retrieveData_date_age,retrieveData_date_phone1,retrieveData_date_phone2,retrieveData_date_phone3,retrieveData_date_email,retrieveData_date_medicine,retrieveData_date_surgeries,retrieveData_date_diseases" />
+
+        <ImageView
+            android:layout_width="@dimen/_7sdp"
+            android:layout_height="@dimen/_80sdp"
+            android:visibility="gone"
+            android:background="@drawable/sh_rounded_primary"
+            app:layout_constraintTop_toBottomOf="@id/retrieveData_date_userName"
+            app:layout_constraintEnd_toStartOf="@id/barrier2"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/agreement_retrieveData_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/bold"
+
+            android:paddingHorizontal="@dimen/_24sdp"
+            android:paddingTop="@dimen/_5sdp"
+            android:paddingBottom="@dimen/_5sdp"
+            android:text="@string/userName"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_12ssp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/retrieveData_date_userName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/regular"
+            android:paddingHorizontal="@dimen/_24sdp"
+            android:paddingEnd="@dimen/_24sdp"
+            android:text="@{contract.attributes.signTheAgreement}"
+            android:textAlignment="viewStart"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_12ssp"
+            app:layout_constraintBottom_toBottomOf="@id/agreement_retrieveData_label"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/barrier"
+            app:layout_constraintTop_toTopOf="@id/agreement_retrieveData_label"
+            tools:text="20/05/2020" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/retrieveData_date_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/bold"
+            android:paddingHorizontal="@dimen/_24sdp"
+            android:paddingTop="@dimen/_5sdp"
+            android:paddingBottom="@dimen/_5sdp"
+            android:text="@string/phone"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_12ssp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/agreement_retrieveData_label" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/retrieveData_date_phone"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/regular"
+            android:paddingHorizontal="@dimen/_24sdp"
+            android:paddingEnd="@dimen/_24sdp"
+            android:text="@{contract.attributes.dateOfCommencement}"
+            android:textAlignment="viewStart"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_12ssp"
+            app:layout_constraintBottom_toBottomOf="@id/retrieveData_date_label"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/barrier"
+            app:layout_constraintTop_toTopOf="@id/retrieveData_date_label"
+            tools:text="20/05/2020" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/elengaz_elt3akody_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/bold"
+            android:paddingHorizontal="@dimen/_24sdp"
+            android:paddingTop="@dimen/_5sdp"
+            android:paddingBottom="@dimen/_5sdp"
+            android:text="@string/Id"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_12ssp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/retrieveData_date_label" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/retrieveData_date_Id"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/regular"
+            android:paddingHorizontal="@dimen/_24sdp"
+            android:paddingEnd="@dimen/_24sdp"
+            android:text="@{contract.attributes.contractualAchievement}"
+            android:textAlignment="viewStart"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_12ssp"
+            app:layout_constraintBottom_toBottomOf="@id/elengaz_elt3akody_label"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/barrier"
+            app:layout_constraintTop_toTopOf="@id/elengaz_elt3akody_label"
+            tools:text="20/05/2020" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/elengaz_elzamany_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/bold"
+            android:paddingHorizontal="@dimen/_24sdp"
+            android:paddingTop="@dimen/_5sdp"
+            android:paddingBottom="@dimen/_5sdp"
+            android:text="@string/blood_type"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_12ssp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/elengaz_elt3akody_label" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/retrieveData_date_bloodType"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/regular"
+            android:paddingHorizontal="@dimen/_24sdp"
+            android:paddingEnd="@dimen/_24sdp"
+            android:text="@{contract.attributes.chronologicalAchievement}"
+            android:textAlignment="viewStart"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_12ssp"
+            app:layout_constraintBottom_toBottomOf="@id/elengaz_elzamany_label"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/barrier"
+            app:layout_constraintTop_toTopOf="@id/elengaz_elzamany_label"
+            tools:text="20/05/2020" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/elengaz_elmaly_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/bold"
+            android:paddingHorizontal="@dimen/_24sdp"
+            android:paddingTop="@dimen/_5sdp"
+            android:paddingBottom="@dimen/_5sdp"
+            android:text="@string/age"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_12ssp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/elengaz_elzamany_label" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/retrieveData_date_age"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/regular"
+            android:paddingHorizontal="@dimen/_24sdp"
+            android:paddingEnd="@dimen/_24sdp"
+            android:text="@{contract.attributes.financialAchievement}"
+            android:textAlignment="viewStart"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_12ssp"
+            app:layout_constraintBottom_toBottomOf="@id/elengaz_elmaly_label"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/barrier"
+            app:layout_constraintTop_toTopOf="@id/elengaz_elmaly_label"
+            tools:text="20/05/2020" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/elengaz_ba3d_eltamded_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/bold"
+            android:paddingHorizontal="@dimen/_24sdp"
+            android:paddingTop="@dimen/_5sdp"
+            android:paddingBottom="@dimen/_5sdp"
+            android:text="@string/phone1"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_12ssp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/elengaz_elmaly_label" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/retrieveData_date_phone1"
+            android:layout_width="0dp"
+            android:drawableEnd="@drawable/ic_baseline_call_24"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/regular"
+            android:paddingHorizontal="@dimen/_24sdp"
+            android:paddingEnd="@dimen/_24sdp"
+            android:text="@{contract.attributes.achievementOt}"
+            android:textAlignment="viewStart"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_12ssp"
+            app:layout_constraintBottom_toBottomOf="@id/elengaz_ba3d_eltamded_label"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/barrier"
+            app:layout_constraintTop_toTopOf="@id/elengaz_ba3d_eltamded_label"
+            tools:text="20/05/2020" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/modet_eletfakya_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/bold"
+            android:paddingHorizontal="@dimen/_24sdp"
+            android:paddingTop="@dimen/_5sdp"
+            android:paddingBottom="@dimen/_5sdp"
+            android:text="@string/phone2"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_12ssp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/elengaz_ba3d_eltamded_label" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/retrieveData_date_phone2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:drawableEnd="@drawable/ic_baseline_call_24"
+
+            android:fontFamily="@font/regular"
+            android:paddingHorizontal="@dimen/_24sdp"
+            android:paddingEnd="@dimen/_24sdp"
+            android:text="@{contract.attributes.durationOfTheAgreement}"
+            android:textAlignment="viewStart"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_12ssp"
+            app:layout_constraintBottom_toBottomOf="@id/modet_eletfakya_label"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/barrier"
+            app:layout_constraintTop_toTopOf="@id/modet_eletfakya_label"
+            tools:text="20/05/2020" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/modet_elemtedad_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/bold"
+            android:paddingHorizontal="@dimen/_24sdp"
+            android:paddingTop="@dimen/_5sdp"
+            android:paddingBottom="@dimen/_5sdp"
+            android:text="@string/phone3"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_12ssp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/modet_eletfakya_label" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/retrieveData_date_phone3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:drawableEnd="@drawable/ic_baseline_call_24"
+            android:fontFamily="@font/regular"
+            android:paddingHorizontal="@dimen/_24sdp"
+            android:paddingEnd="@dimen/_24sdp"
+            android:text="@{contract.attributes.durationOfExtension}"
+            android:textAlignment="viewStart"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_12ssp"
+            app:layout_constraintBottom_toBottomOf="@id/modet_elemtedad_label"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/barrier"
+            app:layout_constraintTop_toTopOf="@id/modet_elemtedad_label"
+            tools:text="20/05/2020" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/egmaly_elmoda_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/bold"
+            android:paddingHorizontal="@dimen/_24sdp"
+            android:paddingTop="@dimen/_5sdp"
+            android:paddingBottom="@dimen/_5sdp"
+            android:text="@string/email"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_12ssp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/modet_elemtedad_label" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/retrieveData_date_email"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/regular"
+            android:paddingHorizontal="@dimen/_24sdp"
+            android:paddingEnd="@dimen/_24sdp"
+            android:text="@{contract.attributes.totalDuration}"
+            android:textAlignment="viewStart"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_12ssp"
+            app:layout_constraintBottom_toBottomOf="@id/egmaly_elmoda_label"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/barrier"
+            app:layout_constraintTop_toTopOf="@id/egmaly_elmoda_label"
+            tools:text="20/05/2020" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/elmoda_elmonkdya_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/bold"
+            android:paddingHorizontal="@dimen/_24sdp"
+            android:paddingTop="@dimen/_5sdp"
+            android:paddingBottom="@dimen/_5sdp"
+            android:text="@string/medicine"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_12ssp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/egmaly_elmoda_label" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/retrieveData_date_medicine"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/regular"
+            android:paddingHorizontal="@dimen/_24sdp"
+            android:paddingEnd="@dimen/_24sdp"
+            android:text="@{contract.attributes.elapsedTime}"
+            android:textAlignment="viewStart"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_12ssp"
+            app:layout_constraintBottom_toBottomOf="@id/elmoda_elmonkdya_label"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/barrier"
+            app:layout_constraintTop_toTopOf="@id/elmoda_elmonkdya_label"
+            tools:text="20/05/2020" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/elnesba_elme2awya_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/bold"
+            android:paddingHorizontal="@dimen/_24sdp"
+            android:paddingTop="@dimen/_5sdp"
+            android:paddingBottom="@dimen/_5sdp"
+            android:text="@string/surgeries"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_12ssp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/elmoda_elmonkdya_label" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/retrieveData_date_surgeries"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/regular"
+            android:paddingHorizontal="@dimen/_24sdp"
+            android:paddingEnd="@dimen/_24sdp"
+            android:text="@{contract.attributes.percentage}"
+            android:textAlignment="viewStart"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_12ssp"
+            app:layout_constraintBottom_toBottomOf="@id/elnesba_elme2awya_label"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/barrier"
+            app:layout_constraintTop_toTopOf="@id/elnesba_elme2awya_label"
+            tools:text="20/05/2020" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/elmoda_elmotabkya_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/bold"
+            android:paddingHorizontal="@dimen/_24sdp"
+            android:paddingTop="@dimen/_5sdp"
+            android:paddingBottom="@dimen/_5sdp"
+            android:text="@string/diseases"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_12ssp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/elnesba_elme2awya_label" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/retrieveData_date_diseases"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/regular"
+            android:paddingHorizontal="@dimen/_24sdp"
+            android:paddingEnd="@dimen/_24sdp"
+            android:text="@{contract.attributes.remainingTime}"
+            android:textAlignment="viewStart"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_12ssp"
+            app:layout_constraintBottom_toBottomOf="@id/elmoda_elmotabkya_label"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/barrier"
+            app:layout_constraintTop_toTopOf="@id/elmoda_elmotabkya_label"
+            tools:text="20/05/2020" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

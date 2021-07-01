@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainLayColor"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="11"
+    android:background="@drawable/q4"
+    tools:context=".login.LoginActivity"
+    tools:targetApi="o">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4">
+
+
+        <ImageView
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="@dimen/_200sdp"
+            android:src="@mipmap/ic_launcher_foreground"
+            android:layout_centerInParent="true"
+            android:contentDescription="@string/description_logo"
+            app:tint="@color/white" />
+
+
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginHorizontal="@dimen/_15sdp"
+        android:layout_weight="3"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:weightSum="3">
+
+
+        <EditText
+            android:id="@+id/login_edTx_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_15sdp"
+            android:autofillHints="@string/login_email"
+            android:drawablePadding="@dimen/_10sdp"
+            android:drawableTint="@color/white"
+            android:hint="@string/login_email"
+            android:inputType="textEmailAddress"
+            android:maxLines="1"
+            android:minHeight="@dimen/_35sdp"
+            android:paddingHorizontal="@dimen/_10sdp"
+            android:drawableStart="@drawable/ic_baseline_person_24"
+            android:paddingBottom="@dimen/_15sdp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textDirection="ltr" />
+
+        <EditText
+            android:id="@+id/login_edTx_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:autofillHints="login_password"
+            android:drawableStart="@drawable/ic_baseline_lock_24"
+            android:drawablePadding="@dimen/_10sdp"
+            android:drawableTint="@color/white"
+            android:hint="@string/login_password"
+            android:inputType="textPassword"
+            android:maxLines="1"
+            android:minHeight="@dimen/_35sdp"
+            android:paddingHorizontal="@dimen/_10sdp"
+            android:paddingBottom="@dimen/_15sdp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textDirection="ltr" />
+
+
+<!--        <RelativeLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content">-->
+
+
+<!--        </RelativeLayout>-->
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2.5"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/login_btn_signIn"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/_15sdp"
+            android:background="@drawable/button_blue"
+            android:text="@string/login_login"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_12sdp"
+            android:textStyle="bold" />
+
+
+        <Button
+            android:id="@+id/edit_btn1"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/_15sdp"
+            android:background="@drawable/button_blue"
+            android:text="Sign up"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_12sdp"
+            android:textStyle="bold" />
+
+        <!--<Button-->
+        <!--android:id="@+id/but_sign_up"-->
+        <!--android:layout_width="@dimen/_200sdp"-->
+        <!--android:layout_height="@dimen/_35sdp"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:layout_marginBottom="@dimen/_10sdp"-->
+        <!--android:layout_marginTop="@dimen/_10sdp"-->
+        <!--android:background="@drawable/button_primary_lite"-->
+        <!--android:text="@string/sign_up"-->
+        <!--android:textAllCaps="false"-->
+        <!--android:textColor="@color/black"-->
+        <!--android:textSize="@dimen/_12sdp"-->
+        <!--android:textStyle="bold" />-->
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/login_txVw_forgotPass"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:gravity="center"
+        android:text="@string/login_forgot_password"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/scan_btn"
+        android:layout_width="205dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="@dimen/_15sdp"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:background="@drawable/button_blue"
+        android:text="@string/scan"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_12sdp"
+        android:textStyle="bold" />
+
+
+</LinearLayout>

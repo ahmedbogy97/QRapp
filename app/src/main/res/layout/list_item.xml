@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/predictedRow"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/_16sdp"
+    android:layout_centerVertical="true"
+    android:layout_marginBottom="@dimen/_16sdp"
+    android:background="@color/white"
+    android:backgroundTint="@color/white"
+    android:padding="@dimen/_5sdp"
+    card_view:cardCornerRadius="10dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/itemDetails_txVw_type"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:gravity="start"
+            android:paddingHorizontal="@dimen/_8sdp"
+            android:layout_marginHorizontal="@dimen/_16sdp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="@dimen/_12ssp" />
+
+        <TextView
+            android:id="@+id/itemDetails_txVw_value"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="6"
+            android:gravity="start"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_12ssp" />
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<LinearLayout    xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    android:orientation="horizontal"-->
+<!--    android:padding="5dp">-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/name1"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Name"-->
+<!--        android:textSize="18dp" />-->
+<!--    <TextView-->
+<!--        android:id="@+id/num"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Phone"-->
+<!--        android:textSize="18dp" />-->
+<!--    <TextView-->
+<!--        android:id="@+id/blood1"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Blood Type"-->
+<!--        android:textSize="18dp" />-->
+<!--    <TextView-->
+<!--        android:id="@+id/num1"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Relatives Phone Number 1"-->
+<!--        android:textSize="18dp" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/num2"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Relatives Phone Number 2"-->
+<!--        android:textSize="18dp" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/num3"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Relatives Phone Number 3"-->
+<!--        android:textSize="18dp" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/id1"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="ID"-->
+<!--        android:textSize="18dp" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/age1"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Age"-->
+<!--        android:textSize="18dp" />-->
+<!--    <TextView-->
+<!--        android:id="@+id/email1"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="E-mail"-->
+<!--        android:textSize="18dp" />-->
+<!--    <TextView-->
+<!--        android:id="@+id/medicine1"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Medicine"-->
+<!--        android:textSize="18dp" />-->
+<!--    <TextView-->
+<!--        android:id="@+id/diseases"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Diseases"-->
+<!--        android:textSize="18dp" />-->
+<!--    <TextView-->
+<!--        android:id="@+id/surgeries"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Surgeries"-->
+<!--        android:textSize="18dp" />-->
+
+
+<!--</LinearLayout>-->

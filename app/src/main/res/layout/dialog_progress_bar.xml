@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linLay_progressBar"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blackLite1"
+    android:orientation="horizontal"
+    android:paddingHorizontal="@dimen/_16sdp"
+    tools:targetApi="o">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/bg_white"
+        android:layoutDirection="ltr"
+        android:minHeight="100dp"
+        android:paddingHorizontal="@dimen/_16sdp">
+
+        <RelativeLayout
+            android:id="@+id/load"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <com.victor.loading.rotate.RotateLoading
+                android:id="@+id/rotate_loading"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_centerInParent="true"
+                app:loading_color="@color/colorPrimary" />
+
+            <!---->
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/txv_progress_bar_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/loading"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/_20ssp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>

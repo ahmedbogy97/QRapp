@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/q4"
+    tools:context=".EditProfile">
+    <include
+        android:id="@+id/appbar"
+        layout="@layout/app_bar_title_back"
+        android:visibility="visible"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.core.widget.NestedScrollView
+        app:layout_constraintTop_toBottomOf="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="@dimen/_10sdp"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="99dp">
+
+<!--            <androidx.appcompat.widget.AppCompatTextView-->
+
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Generate To Be Save"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:textSize="35sp"-->
+<!--                android:textStyle="bold" />-->
+
+            <androidx.appcompat.widget.AppCompatTextView
+
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="@string/required"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:textColorHint="@color/white"
+                android:textColor="@color/white"
+                android:id="@+id/editProfile_fullName"
+                android:inputType="text"
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/full_name" />
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:textColorHint="@color/white"
+                android:textColor="@color/white"
+                android:id="@+id/editProfile_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/email"
+                android:inputType="text" />
+
+<!--            <androidx.appcompat.widget.AppCompatEditText
+android:textColorHint="@color/white"
+ android:textColor="@color/white" -->
+<!--                android:id="@+id/editProfile_password"-->
+<!--                android:inputType="numberPassword"-->
+<!--                android:layout_width="380dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:hint="@string/login_password" />-->
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:textColorHint="@color/white"
+                android:textColor="@color/white"
+                android:id="@+id/editProfile_phone"
+                android:inputType="phone"
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/phone" />
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:textColorHint="@color/white"
+                android:textColor="@color/white"
+                android:id="@+id/editProfile_id"
+                android:layout_width="380dp"
+                android:inputType="number"
+                android:layout_height="wrap_content"
+                android:hint="@string/Id1" />
+
+            <Spinner
+                android:id="@+id/bloodtype"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:paddingLeft="8dp"
+                android:background="@drawable/sh_rounded_primary"
+                android:popupBackground="@android:color/white"
+                android:scrollbars="none"
+                android:drawableEnd="@drawable/ic_baseline_arrow_drop_down_24"
+                android:padding="@dimen/_8sdp"
+                android:backgroundTint="@color/white"
+                android:entries="@array/bloodType"
+                android:spinnerMode="dropdown" />
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:textColorHint="@color/white"
+                android:textColor="@color/white"
+                android:id="@+id/editProfile_phone1"
+                android:layout_width="match_parent"
+                android:inputType="phone"
+                android:layout_height="wrap_content"
+                android:hint="@string/relatives_phone_number_1" />
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:textColorHint="@color/white"
+                android:textColor="@color/white"
+                android:id="@+id/editProfile_phone2"
+                android:layout_width="match_parent"
+                android:inputType="phone"
+                android:layout_height="wrap_content"
+                android:hint="@string/relatives_phone_number_2" />
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:textColorHint="@color/white"
+                android:textColor="@color/white"
+                android:id="@+id/editProfile_phone3"
+                android:layout_width="384dp"
+                android:inputType="phone"
+                android:layout_height="wrap_content"
+                android:hint="@string/relatives_phone_number_3" />
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:textColorHint="@color/white"
+                android:textColor="@color/white"
+                android:id="@+id/editProfile_age"
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/age"
+                android:inputType="number" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/editProfile_optional"
+                android:textSize="@dimen/_25sdp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/optional" />
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:textColorHint="@color/white"
+                android:textColor="@color/white"
+                android:id="@+id/editProfile_medicine"
+                android:layout_width="381dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/medicine_you_take" />
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:textColorHint="@color/white"
+                android:textColor="@color/white"
+                android:id="@+id/editProfile_diseases"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/chronic_diseases" />
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:textColorHint="@color/white"
+                android:textColor="@color/white"
+                android:id="@+id/editProfile_surgeries"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/surgeries" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/editProfile_btn_edit"
+                android:layout_width="@dimen/_200sdp"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="@dimen/_16sdp"
+                android:layout_marginTop="@dimen/_16sdp"
+                android:background="@drawable/button_blue"
+                android:text="@string/save"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_12ssp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

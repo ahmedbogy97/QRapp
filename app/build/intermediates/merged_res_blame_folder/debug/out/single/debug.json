@@ -1,0 +1,338 @@
+[
+    {
+        "merged": "J:\\QR-master 1\\QR-master\\QR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_scanner.xml.flat",
+        "source": "J:\\QR-master 1\\QR-master\\QR-master\\app\\src\\main\\res\\layout\\activity_scanner.xml"
+    },
+    {
+        "merged": "J:\\QR-master 1\\QR-master\\QR-master\\app\\build\\intermediates\\res\\merged\\debug\\anim_slide_out_right.xml.flat",
+        "source": "J:\\QR-master 1\\QR-master\\QR-master\\app\\src\\main\\res\\anim\\slide_out_right.xml"
+    },
+    {
+        "merged": "J:\\QR-master 1\\QR-master\\QR-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_logo.png.flat",
+        "source": "J:\\QR-master 1\\QR-master\\QR-master\\app\\src\\main\\res\\drawable\\logo.png"
+    },
+    {
+        "merged": "J:\\QR-master 1\\QR-master\\QR-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "J:\\QR-master 1\\QR-master\\QR-master\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "J:\\QR-master 1\\QR-master\\QR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_app_bar_logout.xml.flat",
+        "source": "J:\\QR-master 1\\QR-master\\QR-master\\app\\src\\main\\res\\layout\\app_bar_logout.xml"
+    },
+    {
+        "merged": "J:\\QR-master 1\\QR-master\\QR-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_lock_24.xml.flat",
+        "source": "J:\\QR-master 1\\QR-master\\QR-master\\app\\src\\main\\res\\drawable\\ic_baseline_lock_24.xml"
+    },
+    {
+        "merged": "J:\\QR-master 1\\QR-master\\QR-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_call_24.xml.flat",
+        "source": "J:\\QR-master 1\\QR-master\\QR-master\\app\\src\\main\\res\\drawable\\ic_baseline_call_24.xml"
+    },
+    {
+        "merged": "J:\\QR-master 1\\QR-master\\QR-master\\app\\build\\intermediates\\res\\merged\\debug\\anim_slide_up.xml.flat",
+        "source": "J:\\QR-master 1\\QR-master\\QR-master\\app\\src\\main\\res\\anim\\slide_up.xml"
+    },
+    {
+        "merged": "J:\\QR-master 1\\QR-master\\QR-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_button_primary_dark.xml.flat",
+        "source": "J:\\QR-master 1\\QR-master\\QR-master\\app\\src\\main\\res\\drawable\\button_primary_dark.xml"
+    },
+    {
+        "merged": "J:\\QR-master 1\\QR-master\\QR-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_arrow_back_24.xml.flat",
+        "source": "J:\\QR-master 1\\QR-master\\QR-master\\app\\src\\main\\res\\drawable\\ic_baseline_arrow_back_24.xml"
+    },
+    {
+        "merged": "J:\\QR-master 1\\QR-master\\QR-master\\app\\build\\intermediates\\res\\merged\\debug\\font_neo_sans_arabic_light_0.TTF.flat",
+        "source": "J:\\QR-master 1\\QR-master\\QR-master\\app\\src\\main\\res\\font\\neo_sans_arabic_light_0.TTF"
+    },
+    {
+        "merged": "J:\\QR-master 1\\QR-master\\QR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_list_item.xml.flat",
+        "source": "J:\\QR-master 1\\QR-master\\QR-master\\app\\src\\main\\res\\layout\\list_item.xml"
+    },
+    {
+        "merged": "J:\\QR-master 1\\QR-master\\QR-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "J:\\QR-master 1\\QR-master\\QR-master\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "J:\\QR-master 1\\QR-master\\QR-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "J:\\QR-master 1\\QR-master\\QR-master\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "J:\\QR-master 1\\QR-master\\QR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_app_bar_title_back.xml.flat",
+        "source": "J:\\QR-master 1\\QR-master\\QR-master\\app\\src\\main\\res\\layout\\app_bar_title_back.xml"
+    },
+    {
+        "merged": "J:\\QR-master 1\\QR-master\\QR-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_arrow_back_ios_24.xml.flat",
+        "source": "J:\\QR-master 1\\QR-master\\QR-master\\app\\src\\main\\res\\drawable\\ic_baseline_arrow_back_ios_24.xml"
+    },
+    {
+        "merged": "J:\\QR-master 1\\QR-master\\QR-master\\app\\build\\intermediates\\res\\merged\\debug\\anim_layout_slide_from_left.xml.flat",
+        "source": "J:\\QR-master 1\\QR-master\\QR-master\\app\\src\\main\\res\\anim\\layout_slide_from_left.xml"
+    },
+    {
+        "merged": "J:\\QR-master 1\\QR-master\\QR-master\\app\\build\\intermediates\\res\\merged\\debug\\anim_translate.xml.flat",
+        "source": "J:\\QR-master 1\\QR-master\\QR-master\\app\\src\\main\\res\\anim\\translate.xml"
+    },
+    {
+        "merged": "J:\\QR-master 1\\QR-master\\QR-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "J:\\QR-master 1\\QR-master\\QR-master\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "J:\\QR-master 1\\QR-master\\QR-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "J:\\QR-master 1\\QR-master\\QR-master\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "J:\\QR-master 1\\QR-master\\QR-master\\app\\build\\intermediates\\res\\merged\\debug\\anim_item_animation_fell_down.xml.flat",
+        "source": "J:\\QR-master 1\\QR-master\\QR-master\\app\\src\\main\\res\\anim\\item_animation_fell_down.xml"
+    },
+    {
+        "merged": "J:\\QR-master 1\\QR-master\\QR-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bg_white_with_blue_border.xml.flat",
+        "source": "J:\\QR-master 1\\QR-master\\QR-master\\app\\src\\main\\res\\drawable\\bg_white_with_blue_border.xml"
+    },
+    {
+        "merged": "J:\\QR-master 1\\QR-master\\QR-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "J:\\QR-master 1\\QR-master\\QR-master\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "J:\\QR-master 1\\QR-master\\QR-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "J:\\QR-master 1\\QR-master\\QR-master\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "J:\\QR-master 1\\QR-master\\QR-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "J:\\QR-master 1\\QR-master\\QR-master\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "J:\\QR-master 1\\QR-master\\QR-master\\app\\build\\intermediates\\res\\merged\\debug\\anim_item_animation_slide_from_right.xml.flat",
+        "source": "J:\\QR-master 1\\QR-master\\QR-master\\app\\src\\main\\res\\anim\\item_animation_slide_from_right.xml"
+    },
+    {
+        "merged": "J:\\QR-master 1\\QR-master\\QR-master\\app\\build\\intermediates\\res\\merged\\debug\\font_black.xml.flat",
+        "source": "J:\\QR-master 1\\QR-master\\QR-master\\app\\src\\main\\res\\font\\black.xml"
+    },
+    {
+        "merged": "J:\\QR-master 1\\QR-master\\QR-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_button_gray.xml.flat",
+        "source": "J:\\QR-master 1\\QR-master\\QR-master\\app\\src\\main\\res\\drawable\\button_gray.xml"
+    },
+    {
+        "merged": "J:\\QR-master 1\\QR-master\\QR-master\\app\\build\\intermediates\\res\\merged\\debug\\font_neo_sans_arabic_bold_0.TTF.flat",
+        "source": "J:\\QR-master 1\\QR-master\\QR-master\\app\\src\\main\\res\\font\\neo_sans_arabic_bold_0.TTF"
+    },
+    {
+        "merged": "J:\\QR-master 1\\QR-master\\QR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_signup.xml.flat",
+        "source": "J:\\QR-master 1\\QR-master\\QR-master\\app\\src\\main\\res\\layout\\activity_signup.xml"
+    },
+    {
+        "merged": "J:\\QR-master 1\\QR-master\\QR-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "J:\\QR-master 1\\QR-master\\QR-master\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "J:\\QR-master 1\\QR-master\\QR-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_q4.jpg.flat",
+        "source": "J:\\QR-master 1\\QR-master\\QR-master\\app\\src\\main\\res\\drawable-v24\\q4.jpg"
+    },
+    {
+        "merged": "J:\\QR-master 1\\QR-master\\QR-master\\app\\build\\intermediates\\res\\merged\\debug\\font_light.xml.flat",
+        "source": "J:\\QR-master 1\\QR-master\\QR-master\\app\\src\\main\\res\\font\\light.xml"
+    },
+    {
+        "merged": "J:\\QR-master 1\\QR-master\\QR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_login.xml.flat",
+        "source": "J:\\QR-master 1\\QR-master\\QR-master\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "J:\\QR-master 1\\QR-master\\QR-master\\app\\build\\intermediates\\res\\merged\\debug\\anim_slide_in_right.xml.flat",
+        "source": "J:\\QR-master 1\\QR-master\\QR-master\\app\\src\\main\\res\\anim\\slide_in_right.xml"
+    },
+    {
+        "merged": "J:\\QR-master 1\\QR-master\\QR-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "J:\\QR-master 1\\QR-master\\QR-master\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "J:\\QR-master 1\\QR-master\\QR-master\\app\\build\\intermediates\\res\\merged\\debug\\font_ultra.xml.flat",
+        "source": "J:\\QR-master 1\\QR-master\\QR-master\\app\\src\\main\\res\\font\\ultra.xml"
+    },
+    {
+        "merged": "J:\\QR-master 1\\QR-master\\QR-master\\app\\build\\intermediates\\res\\merged\\debug\\font_bold.xml.flat",
+        "source": "J:\\QR-master 1\\QR-master\\QR-master\\app\\src\\main\\res\\font\\bold.xml"
+    },
+    {
+        "merged": "J:\\QR-master 1\\QR-master\\QR-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "J:\\QR-master 1\\QR-master\\QR-master\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "J:\\QR-master 1\\QR-master\\QR-master\\app\\build\\intermediates\\res\\merged\\debug\\anim_slide_to_left.xml.flat",
+        "source": "J:\\QR-master 1\\QR-master\\QR-master\\app\\src\\main\\res\\anim\\slide_to_left.xml"
+    },
+    {
+        "merged": "J:\\QR-master 1\\QR-master\\QR-master\\app\\build\\intermediates\\res\\merged\\debug\\anim_alpha.xml.flat",
+        "source": "J:\\QR-master 1\\QR-master\\QR-master\\app\\src\\main\\res\\anim\\alpha.xml"
+    },
+    {
+        "merged": "J:\\QR-master 1\\QR-master\\QR-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "J:\\QR-master 1\\QR-master\\QR-master\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "J:\\QR-master 1\\QR-master\\QR-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sh_top_rounded_primary.xml.flat",
+        "source": "J:\\QR-master 1\\QR-master\\QR-master\\app\\src\\main\\res\\drawable\\sh_top_rounded_primary.xml"
+    },
+    {
+        "merged": "J:\\QR-master 1\\QR-master\\QR-master\\app\\build\\intermediates\\res\\merged\\debug\\anim_layout_fail_down.xml.flat",
+        "source": "J:\\QR-master 1\\QR-master\\QR-master\\app\\src\\main\\res\\anim\\layout_fail_down.xml"
+    },
+    {
+        "merged": "J:\\QR-master 1\\QR-master\\QR-master\\app\\build\\intermediates\\res\\merged\\debug\\anim_slide_bottom.xml.flat",
+        "source": "J:\\QR-master 1\\QR-master\\QR-master\\app\\src\\main\\res\\anim\\slide_bottom.xml"
+    },
+    {
+        "merged": "J:\\QR-master 1\\QR-master\\QR-master\\app\\build\\intermediates\\res\\merged\\debug\\anim_slide_right.xml.flat",
+        "source": "J:\\QR-master 1\\QR-master\\QR-master\\app\\src\\main\\res\\anim\\slide_right.xml"
+    },
+    {
+        "merged": "J:\\QR-master 1\\QR-master\\QR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_edit_profile.xml.flat",
+        "source": "J:\\QR-master 1\\QR-master\\QR-master\\app\\src\\main\\res\\layout\\activity_edit_profile.xml"
+    },
+    {
+        "merged": "J:\\QR-master 1\\QR-master\\QR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_retrieve_data_.xml.flat",
+        "source": "J:\\QR-master 1\\QR-master\\QR-master\\app\\src\\main\\res\\layout\\activity_retrieve_data_.xml"
+    },
+    {
+        "merged": "J:\\QR-master 1\\QR-master\\QR-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "J:\\QR-master 1\\QR-master\\QR-master\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "J:\\QR-master 1\\QR-master\\QR-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_person_24.xml.flat",
+        "source": "J:\\QR-master 1\\QR-master\\QR-master\\app\\src\\main\\res\\drawable\\ic_baseline_person_24.xml"
+    },
+    {
+        "merged": "J:\\QR-master 1\\QR-master\\QR-master\\app\\build\\intermediates\\res\\merged\\debug\\anim_item_animation_slide_from_bottom.xml.flat",
+        "source": "J:\\QR-master 1\\QR-master\\QR-master\\app\\src\\main\\res\\anim\\item_animation_slide_from_bottom.xml"
+    },
+    {
+        "merged": "J:\\QR-master 1\\QR-master\\QR-master\\app\\build\\intermediates\\res\\merged\\debug\\anim_layout_slide_from_bottom.xml.flat",
+        "source": "J:\\QR-master 1\\QR-master\\QR-master\\app\\src\\main\\res\\anim\\layout_slide_from_bottom.xml"
+    },
+    {
+        "merged": "J:\\QR-master 1\\QR-master\\QR-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bg_white.xml.flat",
+        "source": "J:\\QR-master 1\\QR-master\\QR-master\\app\\src\\main\\res\\drawable\\bg_white.xml"
+    },
+    {
+        "merged": "J:\\QR-master 1\\QR-master\\QR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_dialog_progress_bar.xml.flat",
+        "source": "J:\\QR-master 1\\QR-master\\QR-master\\app\\src\\main\\res\\layout\\dialog_progress_bar.xml"
+    },
+    {
+        "merged": "J:\\QR-master 1\\QR-master\\QR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_generate_qr.xml.flat",
+        "source": "J:\\QR-master 1\\QR-master\\QR-master\\app\\src\\main\\res\\layout\\generate_qr.xml"
+    },
+    {
+        "merged": "J:\\QR-master 1\\QR-master\\QR-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_button_blue.xml.flat",
+        "source": "J:\\QR-master 1\\QR-master\\QR-master\\app\\src\\main\\res\\drawable\\button_blue.xml"
+    },
+    {
+        "merged": "J:\\QR-master 1\\QR-master\\QR-master\\app\\build\\intermediates\\res\\merged\\debug\\anim_layout_slide_from_right.xml.flat",
+        "source": "J:\\QR-master 1\\QR-master\\QR-master\\app\\src\\main\\res\\anim\\layout_slide_from_right.xml"
+    },
+    {
+        "merged": "J:\\QR-master 1\\QR-master\\QR-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_q3.jpg.flat",
+        "source": "J:\\QR-master 1\\QR-master\\QR-master\\app\\src\\main\\res\\drawable-v24\\q3.jpg"
+    },
+    {
+        "merged": "J:\\QR-master 1\\QR-master\\QR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_dialog_forget_password.xml.flat",
+        "source": "J:\\QR-master 1\\QR-master\\QR-master\\app\\src\\main\\res\\layout\\dialog_forget_password.xml"
+    },
+    {
+        "merged": "J:\\QR-master 1\\QR-master\\QR-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sh_top_rounded_pry.xml.flat",
+        "source": "J:\\QR-master 1\\QR-master\\QR-master\\app\\src\\main\\res\\drawable\\sh_top_rounded_pry.xml"
+    },
+    {
+        "merged": "J:\\QR-master 1\\QR-master\\QR-master\\app\\build\\intermediates\\res\\merged\\debug\\menu_home_menu.xml.flat",
+        "source": "J:\\QR-master 1\\QR-master\\QR-master\\app\\src\\main\\res\\menu\\home_menu.xml"
+    },
+    {
+        "merged": "J:\\QR-master 1\\QR-master\\QR-master\\app\\build\\intermediates\\res\\merged\\debug\\font_regular.xml.flat",
+        "source": "J:\\QR-master 1\\QR-master\\QR-master\\app\\src\\main\\res\\font\\regular.xml"
+    },
+    {
+        "merged": "J:\\QR-master 1\\QR-master\\QR-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "J:\\QR-master 1\\QR-master\\QR-master\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "J:\\QR-master 1\\QR-master\\QR-master\\app\\build\\intermediates\\res\\merged\\debug\\anim_slide_down.xml.flat",
+        "source": "J:\\QR-master 1\\QR-master\\QR-master\\app\\src\\main\\res\\anim\\slide_down.xml"
+    },
+    {
+        "merged": "J:\\QR-master 1\\QR-master\\QR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_profile.xml.flat",
+        "source": "J:\\QR-master 1\\QR-master\\QR-master\\app\\src\\main\\res\\layout\\activity_profile.xml"
+    },
+    {
+        "merged": "J:\\QR-master 1\\QR-master\\QR-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "J:\\QR-master 1\\QR-master\\QR-master\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "J:\\QR-master 1\\QR-master\\QR-master\\app\\build\\intermediates\\res\\merged\\debug\\anim_smalltobig.xml.flat",
+        "source": "J:\\QR-master 1\\QR-master\\QR-master\\app\\src\\main\\res\\anim\\smalltobig.xml"
+    },
+    {
+        "merged": "J:\\QR-master 1\\QR-master\\QR-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "J:\\QR-master 1\\QR-master\\QR-master\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "J:\\QR-master 1\\QR-master\\QR-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "J:\\QR-master 1\\QR-master\\QR-master\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "J:\\QR-master 1\\QR-master\\QR-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "J:\\QR-master 1\\QR-master\\QR-master\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "J:\\QR-master 1\\QR-master\\QR-master\\app\\build\\intermediates\\res\\merged\\debug\\font_neo_sans_arabic_black_0.TTF.flat",
+        "source": "J:\\QR-master 1\\QR-master\\QR-master\\app\\src\\main\\res\\font\\neo_sans_arabic_black_0.TTF"
+    },
+    {
+        "merged": "J:\\QR-master 1\\QR-master\\QR-master\\app\\build\\intermediates\\res\\merged\\debug\\font_neo_sans_arabic_regular.ttf.flat",
+        "source": "J:\\QR-master 1\\QR-master\\QR-master\\app\\src\\main\\res\\font\\neo_sans_arabic_regular.ttf"
+    },
+    {
+        "merged": "J:\\QR-master 1\\QR-master\\QR-master\\app\\build\\intermediates\\res\\merged\\debug\\anim_slide_left.xml.flat",
+        "source": "J:\\QR-master 1\\QR-master\\QR-master\\app\\src\\main\\res\\anim\\slide_left.xml"
+    },
+    {
+        "merged": "J:\\QR-master 1\\QR-master\\QR-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sh_rounded_primary.xml.flat",
+        "source": "J:\\QR-master 1\\QR-master\\QR-master\\app\\src\\main\\res\\drawable\\sh_rounded_primary.xml"
+    },
+    {
+        "merged": "J:\\QR-master 1\\QR-master\\QR-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_car.jpeg.flat",
+        "source": "J:\\QR-master 1\\QR-master\\QR-master\\app\\src\\main\\res\\drawable-v24\\car.jpeg"
+    },
+    {
+        "merged": "J:\\QR-master 1\\QR-master\\QR-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "J:\\QR-master 1\\QR-master\\QR-master\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "J:\\QR-master 1\\QR-master\\QR-master\\app\\build\\intermediates\\res\\merged\\debug\\anim_item_animation_slide_from_left.xml.flat",
+        "source": "J:\\QR-master 1\\QR-master\\QR-master\\app\\src\\main\\res\\anim\\item_animation_slide_from_left.xml"
+    },
+    {
+        "merged": "J:\\QR-master 1\\QR-master\\QR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_first_test.xml.flat",
+        "source": "J:\\QR-master 1\\QR-master\\QR-master\\app\\src\\main\\res\\layout\\first_test.xml"
+    },
+    {
+        "merged": "J:\\QR-master 1\\QR-master\\QR-master\\app\\build\\intermediates\\res\\merged\\debug\\anim_slide_in_left.xml.flat",
+        "source": "J:\\QR-master 1\\QR-master\\QR-master\\app\\src\\main\\res\\anim\\slide_in_left.xml"
+    },
+    {
+        "merged": "J:\\QR-master 1\\QR-master\\QR-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_qe.jpg.flat",
+        "source": "J:\\QR-master 1\\QR-master\\QR-master\\app\\src\\main\\res\\drawable-v24\\qe.jpg"
+    },
+    {
+        "merged": "J:\\QR-master 1\\QR-master\\QR-master\\app\\build\\intermediates\\res\\merged\\debug\\anim_slide_out_left.xml.flat",
+        "source": "J:\\QR-master 1\\QR-master\\QR-master\\app\\src\\main\\res\\anim\\slide_out_left.xml"
+    },
+    {
+        "merged": "J:\\QR-master 1\\QR-master\\QR-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_arrow_drop_down_24.xml.flat",
+        "source": "J:\\QR-master 1\\QR-master\\QR-master\\app\\src\\main\\res\\drawable\\ic_baseline_arrow_drop_down_24.xml"
+    },
+    {
+        "merged": "J:\\QR-master 1\\QR-master\\QR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_splash_screen.xml.flat",
+        "source": "J:\\QR-master 1\\QR-master\\QR-master\\app\\src\\main\\res\\layout\\activity_splash_screen.xml"
+    },
+    {
+        "merged": "J:\\QR-master 1\\QR-master\\QR-master\\app\\build\\intermediates\\res\\merged\\debug\\font_neo_sans_arabic_ultra_0.TTF.flat",
+        "source": "J:\\QR-master 1\\QR-master\\QR-master\\app\\src\\main\\res\\font\\neo_sans_arabic_ultra_0.TTF"
+    }
+]
